@@ -4,7 +4,7 @@
   "description": "complete bootstrap5 and sass project for portfolio website!!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass --watch scss:assets/css"
   },
   "keywords": [
     "bootstrap5",
