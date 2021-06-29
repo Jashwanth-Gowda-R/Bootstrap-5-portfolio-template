@@ -1,0 +1,127 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*==================== 
+          Footer 
+====================== */
+#footer a {
+  color: #ffffff;
+  // text-decoration: none !important;
+  background-color: transparent;
+  padding: 0.1rem;
+  -webkit-text-decoration-skip: objects;
+}
+.fa {
+  padding: 0.1rem;
+}
+#footer a:hover {
+  color: yellow !important;
+}
+.vani:hover {
+  text-decoration: underline !important;
+  color: yellow !important;
+}
+
+#footer ul.quick-links li a:hover {
+  color: yellow !important;
+}
+
+/* Main Footer */
+footer .main-footer {
+  padding: 60px 0;
+  background: #007b5e;
+}
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-1{
+    height: 30vh;
+}
+
+/*==================== 
+  Widgets 
+====================== */
+.widget {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.widget.widget-last {
+  margin-bottom: 0px;
+}
+.widget.no-box {
+  padding: 0;
+  background-color: transparent;
+  margin-bottom: 40px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+}
+.widget.subscribe p {
+  margin-bottom: 18px;
+}
+.widget li a {
+  color: #fff;
+}
+.widget li a:hover {
+  color: #aaa;
+  text-decoration: none;
+}
+.widget-title {
+  margin-bottom: 20px;
+}
+.widget-title span {
+  background: #839fad none repeat scroll 0 0;
+  display: block;
+  height: 1px;
+  margin-top: 25px;
+  position: relative;
+  width: 20%;
+}
+.widget-title span::after {
+  background: inherit;
+  content: "";
+  height: inherit;
+  position: absolute;
+  top: -4px;
+  width: 50%;
+}
+.widget-title.text-center span,
+.widget-title.text-center span::after {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+.widget .badge {
+  float: right;
+  background: #7f7f7f;
+}
+
+.typo-light h1,
+.typo-light h2,
+.typo-light h3,
+.typo-light h4,
+.typo-light h5,
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small {
+  color: #fff;
+}
+
+.thumb-content ::before {
+  content: "\f190";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  margin-left: 5px;
+  color: #ffffff;
+}
+
+
+.footer-bottom__copyright{
+    margin-bottom: -5%;
+}
